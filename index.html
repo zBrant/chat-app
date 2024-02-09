@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js"></script>
+  <title>Chat App</title>
+  <style>
+    p{
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h3>Your id broo --&gt; <span></span></h3>
+  </div>
+  <div>
+    <input id="peerId" placeholder="Your Friend Id" autocomplete="off" />
+    <button id="send">Send</button>
+  </div>
+  <div>
+    <input id="message" autocomplete="off" placeholder="type some message"/>
+    <button id="sendMessage">send Message</button>
+  </div>
+  <br>
+  <div class="messagesArea"></div>
+  <br>
+  <script src="app.js"></script>
+</body>
+</html>
+
